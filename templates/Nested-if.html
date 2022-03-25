@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>NESTED -IF CONDTION</h1>
+        {% if a > b %}
+            {% if a > c %}
+                <h2>A is greater</h2>
+            {% else %}
+                <h2>C is grater</h2>
+            {% endif %}  
+        {% else %}
+            {% if b > c %}
+                <h2> B is grater</h2>
+            {% else %}
+                <h2> C is grater</h2> 
+            {% endif %} 
+        {% endif %}           
+            
+    </center>
+</body>
+</html>
